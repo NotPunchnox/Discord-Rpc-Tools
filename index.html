@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./src/js/rpc.js"></script>
+  <script type="text/javascript" src="./src/js/windows.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Discord Rpc creator | create by punchnox</title>
+  <script type="text/javascript" script-name="allerta" src="http://use.edgefonts.net/allerta.js"></script>
+</head>
+
+<body>
+
+  <div id="toolbar">
+    <div class="btn" id="close"></div>
+    <div class="btn" id="max"></div>
+    <div class="btn" id="min"></div>
+    <div id="title">Discord Rp creator</span>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h2>DISCORD RPC CREATOR</h2>
+
+    <form>
+
+      <div class="group">
+        <input id="botid" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Bot id</label>
+      </div>
+
+      <div class="group">
+        <input id="details" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Details</label>
+      </div>
+
+      <div class="group">
+        <input id="state" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Statistiques</label>
+      </div>
+
+      <div class="group">
+        <input id="largeImageKey" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Nom de la grande image</label>
+      </div>
+
+      <div class="group">
+        <input id="largeImageText" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Texte de la grande image</label>
+      </div>
+
+      <div class="group">
+        <input id="smallImageKey" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Nom de la petite image</label>
+      </div>
+
+      <div class="group">
+        <input id="smallImageText" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Texte de la petite image</label>
+      </div>
+
+      <div class="group">
+        <input id="joinSecret" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Join secret</label>
+      </div>
+
+      <div class="group">
+        <input id="matchSecret" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Match secret</label>
+      </div>
+
+      <div class="group">
+        <input id="partySize" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Nombre de joueurs actuel</label>
+      </div>
+
+      <div class="group">
+        <input id="partyMax" type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Nombre de joueurs maximums</label>
+      </div>
+
+      <a onclick="discordrpc();" class="btn effect04" data-sm-link-text="cliquer" target="_blank"><span>Start rpc</span></a>
+    </form>
+    <a onclick="appquit();" class="btn effect04" data-sm-link-text="cliquer" target="_blank"><span>stop rpc</span></a>
+
+  </div>
+
+
+</body>
+
+</html>
