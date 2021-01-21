@@ -1,5 +1,10 @@
 # Discord-Rpc-Tools
 
+
+Update : Version executable dispo ici:
+https://mega.nz/file/HX4wBLrT#CHtfM6GfxjOR-0rm-IMuHNhc-WoXBFsPsDAoPStwJZM
+
+
 Si vous voulez la version en exe allez sur discord.gg/punchnox ou
 vous pouvez aussi le compiler avec la commande 
 `electron-packager . --all`
